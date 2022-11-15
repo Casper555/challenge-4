@@ -1,0 +1,6 @@
+cijfer1 = int(input("voer het eerste getal in: "))
+cijfer2 = int(input("voer het tweede getal in: "))
+cijfer3 = int(input("voer het derde getal in: "))
+answer = (cijfer1/cijfer2/cijfer3)
+r = round(answer,4)
+print(r)
