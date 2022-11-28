@@ -1,5 +1,5 @@
-import datetime
-x = datetime.datetime.now() 
-geboorte = int(input("Voer je geboortedatum in: "))
-if geboorte > x : print("mag rijden")
-else: print("mag niet")
+from datetime import date
+date.year
+geboorte = input("Voer je geboortedatum in: ")
+if geboorte > date.today() : print("mag rijden")
+else: print("mag niet rijden")
