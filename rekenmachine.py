@@ -1,19 +1,16 @@
 while True:
 
-  getal1 = int(input("Voer het eerste getal in: "))
-  teken = input("Voeg een teken toe: ")
-  getal2 = int(input("Voer het tweede getal in: "))
-  uitkomst = input("klik op = en dan enter voor de uitkomst: ")
+  getal_1 = int(input("Voer het eerste getal in: "))
+  operator = input("Voeg een operator toe: ")
+  getal_2 = int(input("Voer het tweede getal in: "))
 
-  if teken == "+":
-    print(uitkomst)
-  elif teken == "-":
-    print(uitkomst)
-  elif teken == "*":
-    print(uitkomst)
-  elif teken == "/":
-    print(uitkomst)
+  if operator == "+":
+    print("Het antwoord is: " + str(getal_1 + getal_2))
+  elif operator == "-":
+    print("Het antwoord is: " + str(getal_1 - getal_2))
+  elif operator == "*":
+    print("Het antwoord is: " + str(getal_1 * getal_2))
+  elif operator == "/":
+    print("Het antwoord is: " + str(getal_1 / getal_2))
   else:
-    print("Ik herken het teken niet, probeer het opnieuw.")
-  if uitkomst == "=":
-    print(getal1 * getal2)
+    print("Ik herken die operator niet, probeer het opnieuw.")
